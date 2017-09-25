@@ -57,7 +57,7 @@ In this exercise, you will initially configure the Cloud Connector so that basic
     <br />
 Note that all the resources and the mapping have the state Green. Click on the Check button and verify that the state remains Green.
 
-      > Note: if you encounter any problem with the configuration (e.g. caused by typos), you can alternatively import the access control called **A3_access_control_cpl360.zip** available in the **Student Share** folder. Click on the import icon and choose the zip file to be imported.
+      > Note: if you encounter any problem with the configuration (e.g. caused by typos), you can alternatively import the access control called **A2_access_control_CPL360.zip** available in the **Student Share** folder. Click on the import icon and choose the zip file to be imported.
 
 1. You have completed the setup of the Cloud Connector to connect your SAP Cloud Platform trial subaccount with the on-premise S/4HANA backend. Before checking the connection in the cloud, have a look at the Cloud Connector ID. You can find it by clicking on the Cloud Connector name and you will see the ID unter **Tunnel Information**.<br /><br />
     ![](../../images/a2-scc-id.png)
