@@ -43,12 +43,12 @@ In this exercise, you will logon to your SAP Cloud Platform trial subaccount and
 1. Test the destination by clicking on **Check Connection** and verify that the connection is successful. Be aware that the **Check Connection** function only checks the successful HTTP tunnel connection between Cloud Connector and SAP Cloud Platform. But it does **_NOT_** check the service authentication with the (possibly incomplete or wrong) user credentials!<br /><br />
     ![](../../images/a3-destination-check.png)
 
-    > Note: if you encounter any problem with the configuration, you can alternatively import the destination called **A4_ABAP_SYSTEM.properties** available in the **Student Share** folder. Click on the **Import Destination** button and choose the properties file to be imported. Then press the **Save** button.
+    > Note: if you encounter any problem with the configuration, you can alternatively import the destination called **A3_ABAP_SYSTEM.properties** available in the **Student Share** folder. Click on the **Import Destination** button and choose the properties file to be imported. Then press the **Save** button.
 
 1. Now that we have everything in place, let's deploy a simple cloud application that consume the backend service. Go to Applications in the SAP Cloud Platform Cockpit and click on **Java Applications**. Then press the button **Deploy Application**.<br /><br />
     ![](../../images/a3-deploy-app.png)
 
-1. Click on **Browse** to select the war file called **A4_DemoPrincipalPropagation.war** in the folder **CPL360** of your **Student Share**. Then press the button **Open**.<br /><br />
+1. Click on **Browse** to select the war file called **A3_DemoPrincipalPropagation.war** in the folder **CPL360** of your **Student Share**. Then press the button **Open**.<br /><br />
     ![](../../images/a3-deploy-war-file.png)
 
 1. Keep all the settings as it is and click **Deploy** to finalize the deployment.<br /><br />
