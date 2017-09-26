@@ -9,7 +9,7 @@ In this exercise, you will learn how to debug a non-working cloud application on
 
 ## Step-by-step guide
 1. First let call again the cloud application and see the error message. If you close the application in the browser already, you can reopen it by calling the following URL:<br />
-    https://a4demoprincipalpxxxxxxxxxxtrial.hanatrial.ondemand.com/A4_DemoPrincipalPropagation/?destination=ABAP_SYSTEM_PP<br />
+    https://a3demoprincipalpxxxxxxxxxxtrial.hanatrial.ondemand.com/A3_DemoPrincipalPropagation/?destination=ABAP_SYSTEM_PP<br />
     The error message tells you that the **Logon failed**, but you can't get more info here in the cloud. So, let's first check in the Cloud Connector.<br /><br />
     ![](../../images/c1-error-message.png)
 

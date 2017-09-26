@@ -24,7 +24,7 @@ In this exercise, you will learn how to configure a destination in the SAP Cloud
 1. That's all. Now you can test the cloud application. But remenber that the name of the destination in defined in the JAVA application. In this exercise we don't want to change the application code and compile it again. This is the reason, why we have introduced a parameter that can be added in the URL. It will overwrite the default destination. Add `?destination=ABAP_SYSTEM_PP` at the end of the URL to use the new destination.
 
     Then the URL of your cloud application looks like the following one:<br />
-    https://a4demoprincipalpxxxxxxxxxxtrial.hanatrial.ondemand.com/A4_DemoPrincipalPropagation/?destination=ABAP_SYSTEM_PP<br /><br />
+    https://a3demoprincipalpxxxxxxxxxxtrial.hanatrial.ondemand.com/A3_DemoPrincipalPropagation/?destination=ABAP_SYSTEM_PP<br /><br />
     ![](../../images/b2-app-url.png)
 
 1. Obviously you should get the error message **Login failed**, because we have added a mistake in the backend configuration. In the next lesson you will learn how to debug it.<br /><br />
