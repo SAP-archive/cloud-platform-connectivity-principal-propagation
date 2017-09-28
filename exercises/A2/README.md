@@ -12,7 +12,7 @@ In this exercise, you will initially configure the Cloud Connector so that basic
 1. Open the Cloud Connector running locally on your student laptop by clicking on the bookmark **SAP Cloud Connector** located in the folder **SAP TechEd** in your Chrome browser.<br /><br />
     ![](../../images/a2-scc-shortcut.png)
 
-1. Login to the Cloud Connector with the user `Adminstrator` and the password `welcome`.<br /><br />
+1. Login to the Cloud Connector with the user `Administrator` and the password `welcome`.<br /><br />
     ![](../../images/a2-scc-credentials.png)
 
 1. The **Define Subaccount** page will open. Provide the following details to bind your SAP Cloud Platform trial subaccount to the Cloud Connector:
