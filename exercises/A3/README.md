@@ -43,12 +43,12 @@ In this exercise, you will logon to your SAP Cloud Platform trial subaccount and
 1. Test the destination by clicking on **Check Connection** and verify that the connection is successful. Be aware that the **Check Connection** function only checks the successful HTTP tunnel connection between Cloud Connector and SAP Cloud Platform. But it does **_NOT_** check the service authentication with the (possibly incomplete or wrong) user credentials!<br /><br />
     ![](../../images/a3-destination-check.png)
 
-    > Note: if you encounter any problem with the configuration, you can alternatively import the destination called **A3_ABAP_SYSTEM.properties** available in the **Student Share** folder. Click on the **Import Destination** button and choose the properties file to be imported. Then press the **Save** button.
+    > Note: if you encounter any problem with the configuration, you can alternatively import the destination called **A4_ABAP_SYSTEM.properties** available in the **Student Share** folder. Click on the **Import Destination** button and choose the properties file to be imported. Once the destination is imported, the existing password/certificate gets removed. So you must newly enter the password `Welcome` in the configuration form after import. Then press the **Save** button.
 
 1. Now that we have everything in place, let's deploy a simple cloud application that consume the backend service. Go to Applications in the SAP Cloud Platform Cockpit and click on **Java Applications**. Then press the button **Deploy Application**.<br /><br />
     ![](../../images/a3-deploy-app.png)
 
-1. Click on **Browse** to select the war file called **A3_DemoPrincipalPropagation.war** in the folder **CPL360** of your **Student Share**. Then press the button **Open**.<br /><br />
+1. Click on **Browse** to select the war file called **A4_DemoPrincipalPropagation.war** in the folder **CPL360** of your **Student Share**. Then press the button **Open**.<br /><br />
     ![](../../images/a3-deploy-war-file.png)
 
 1. Keep all the settings as it is and click **Deploy** to finalize the deployment.<br /><br />
@@ -57,7 +57,7 @@ In this exercise, you will logon to your SAP Cloud Platform trial subaccount and
 1. In the notification popup, click **Start** to launch the application.<br /><br />
     ![](../../images/a3-start-app-success.png)
 
-1. It will take 1 or 2 minutes to start a server for the Java application. So in the meanwhile, you can have a look at the code of the application by opning the following URL: https://github.wdf.sap.corp/Connectivity-CF-PM/CPL360/blob/master/code/PrincipalPropagationDemo.java. Here you can see that we have defined the destination **ABAP_SYSTEM** as default and that we are appending the path **/sap/bc/user_info**. Then the response will be displayed in the browser. We are using here a very simple application as the focus of this session is on setting up the connectivity and should not be distracted by a fancy UI.<br /><br />
+1. It will take 1 or 2 minutes to start a server for the Java application. So in the meanwhile, you can have a look at the code of the application by opening the following URL: https://github.com/SAP/cloud-platform-connectivity-principal-propagation/blob/master/code/PrincipalPropagationDemo.java. Here you can see that we have defined the destination **ABAP_SYSTEM** as default and that we are appending the path **/sap/bc/user_info**. Then the response will be displayed in the browser. We are using here a very simple application as the focus of this session is on setting up the connectivity and should not be distracted by a fancy UI.<br /><br />
     ![](../../images/a3-app-code.png)
 
 1. Once it's started, click on the name of the application.<br /><br />
