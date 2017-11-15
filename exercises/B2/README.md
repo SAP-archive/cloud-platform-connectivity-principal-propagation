@@ -14,10 +14,10 @@ There are two levels of trust:
 At the end of the exercise you will configure the user mapping in the target system. The X.509 certificate contains information about the cloud user in its subject. You will use this information in order to map the identity to the appropriate user in this system.
 
 ## Step 1: Establishing trust between the ABAP System and the Cloud Connector by importing CA issuing the system certificate
-1. Go to you backend system and click on the bookmark called **Trust Manager (STRUST)** in the favorites.<br /><br />
+1. Go to you backend system and double-click on the bookmark called **Trust Manager (STRUST)** in the favorites.<br /><br />
     ![](../../images/b3-bookmark-trust-manager.png)
 
-1. Click on "SSL server Standard".<br /><br />
+1. Double-click on "SSL server Standard".<br /><br />
     ![](../../images/b3-ssl-server.png)
 
 1. Switch to edit modus by clicking the **Edit-icon**.<br /><br />
@@ -45,7 +45,7 @@ At the end of the exercise you will configure the user mapping in the target sys
 ## Step 2: Configuration of the ICM
 > Note: The Internet Communication Manager (ICM) ensures that communication between the SAP System and the outside world via HTTP, HTTPS and SMTP protocols works properly. In its role as a server, the ICM is processing requests from the Internet that arrive as URLs with the server/port combination that the ICM is listening to. The ICM then calls the relevant local handler for the URL in question.
 
-1. Click on the bookmark called **Maintain Profiles (RZ10)** in the favorites.<br /><br />
+1. Double-click on the bookmark called **Maintain Profiles (RZ10)** in the favorites.<br /><br />
     ![](../../images/b3-bookmark-profiles.png)
 
 1. The system has been installed on a master image and the profile has been bound to the name of the system. As you are using now a clone of the image, we need first to adapt the profile. So click **Utilities** in the top menu and select **Import profiles** - **Of active servers**.<br /><br />
@@ -106,7 +106,7 @@ At the end of the exercise you will configure the user mapping in the target sys
 1. Click the **Back** icon.<br /><br />
   ![](../../images/b3-back-to-bookmarks.png)
 
-1. Open the ICM by clicking the bookmark called **ICM Monitor (SMICM)** in favorites.<br /><br />
+1. Open the ICM by double-clicking the bookmark called **ICM Monitor (SMICM)** in favorites.<br /><br />
     ![](../../images/b3-bookmark-icm.png)
 
 1. Restart the ICM by clicking **Administration** in the top menu and select **ICM** > **Hard Shut Down** > **Global**.<br /><br />
@@ -128,7 +128,7 @@ At the end of the exercise you will configure the user mapping in the target sys
 ## Step 3: Mapping of the short-living certificate
 You can do the mapping manually in the system or make use of an Identity Management Solution for a more comfortable approach. For example, for large numbers of users the rule-based certificate mapping is a good way to save time and effort. In this scenario, we will use the second option.
 
-1. Click the bookmark called **Profile Parameter Maintenance (RZ11)** in favorites.<br /><br />
+1. Double-click the bookmark called **Profile Parameter Maintenance (RZ11)** in favorites.<br /><br />
     ![](../../images/b3-bookmark-rz11.png)
 
 1. Insert `login/certificate_mapping_rulebased` as **Parameter Name** and click `Display`.<br /><br />
@@ -146,7 +146,7 @@ You can do the mapping manually in the system or make use of an Identity Managem
 1. Verify the new value and go back to bookmarks by clicking 2 times the **Back** icon.<br /><br />
     ![](../../images/b3-rz11-change-value-verify.png)
 
-1. Click on the bookmark called **Rule based Certificate Mapping (CERTRULE)** in favorites.<br /><br />
+1. Double-click on the bookmark called **Rule based Certificate Mapping (CERTRULE)** in favorites.<br /><br />
     ![](../../images/b3-bookmark-certrule.png)
 
 1. Click on the **Display/Change** icon.<br /><br />

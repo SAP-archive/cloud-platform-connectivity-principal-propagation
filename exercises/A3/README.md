@@ -19,7 +19,7 @@ In this exercise, you will logon to your SAP Cloud Platform trial subaccount and
 1. Click the link **pXXXXXXXXXXtrial** to enter your personal developer subaccount on the SAP Cloud Platform trial landscape.<br /><br />
     ![](../../images/a3-subaccount.png)
 
-4. Check now under **Connectivity** > **Cloud Connectors** whether you can see the on-premise system as **Exposed Back-End Systems**.<br /><br />
+1. Check now under **Connectivity** > **Cloud Connectors** whether you can see the on-premise system as **Exposed Back-End Systems**.<br /><br />
     ![](../../images/a3-scc-cloud.png)
 
 
