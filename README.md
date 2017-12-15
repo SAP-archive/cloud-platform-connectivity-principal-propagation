@@ -19,7 +19,7 @@ No Download / Installation needed, you can view contents online:
   * [Exercise C2](/exercises/C2/README.md)
 
 ## How to obtain support
-Feel free to contact [Matthieu Pelatan](mailto:matthieu.pelatan@sap.com?Subject=CPL360) or [Philipp Stehle](mailto:philipp.stehle@sap.com?Subject=CPL360) via Email.
+If you need any support, have any question, or have found a bug, please report it as an issue in the repository.
 
 ## Known Issues
 Currently there are no known issues.
