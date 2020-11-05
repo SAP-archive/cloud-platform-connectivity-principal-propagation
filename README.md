@@ -1,5 +1,5 @@
 ## Description
-This Repository contains a step-by-step-guide for [CPL360](https://sessioncatalog.sapevents.com/go/agendabuilder.sessions/?l=157&sid=49863_470530&locale=en_US) and should not be relevant to anyone not attending that session.
+This repository contains a step-by-step-guide for [CPL360](https://sessioncatalog.sapevents.com/go/agendabuilder.sessions/?l=157&sid=49863_470530&locale=en_US) and should not be relevant to anyone not attending that session.
 
 ## Requirements
 You'll need access to TechEd 2017 Image A. Access will be provided by the sessions speaker.
@@ -25,5 +25,4 @@ If you need any support, have any question, or have found a bug, please report i
 Currently there are no known issues.
 
 ## License
-Copyright (c) 2017 SAP SE or an SAP affiliate company. All rights reserved.
-This file is licensed under the Apache Software License, v. 2 except as noted otherwise in the  [LICENSE](LICENSE) file.
+Copyright (c) 2017 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, v. 2 except as noted otherwise in the  [LICENSE](LICENSE) file.
